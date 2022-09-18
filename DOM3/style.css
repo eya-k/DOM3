@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 10px 5px 40px ;
+    padding: 0;
+    background: linear-gradient(to bottom right, #2835ec, #86bdf7);
+    height: 100vh;
+   
+    justify-content: center;
+    align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+i {
+    margin-right: 10px;
+}
+h2{
+    color: #2835ec;
+    margin: 5px 0 40px 0;
+}
+
+.big-cart{
+    width: 80%;
+    height: 76%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+    justify-content: center;
+    margin-top: 2.5cm;
+    text-align: center;
+    align-items: center;
+   }
+
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+.form-control:disabled,  .form-control[read-only]{
+    background-color: #fff;
+}
+.table tr, 
+.table tr td{
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: aqua;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+    background-color: #516ce5;
+    color: #fff;
+}
+.img-prodt{
+    width: 80px;
+    height: 80px;
+    background-color: #516ce5;
+    border-radius: 4px;
+    margin: 12px 12px;
+}
+.img-prodt img{
+    width: 100%;
+  
+}
+.table{
+    text-align: center;
+}
